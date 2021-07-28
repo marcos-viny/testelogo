@@ -4,8 +4,10 @@ head {
 
 main {
     color: blue;
+    background-color: palevioletred;
 }
 
 footer {
     color: aqua;
+    background-color: blueviolet;
 }
