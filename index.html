@@ -5,14 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <header>Marcos</header>
-    <main>Vinicius</main>
-    <footer>Moreira</footer>
+    <header class="header">
+        <a href="#" class="logo">Logo</a>
+        <nav id="nav">
+            <button id="btn-mobile">
+                <span aria-label="Abrir Menu" class="haburguer" aria-haspopup="true" aria-controls="menu" aria-expanded="false"></span>
+            </button>
+            <ul role="menu" class="menu">
+                <li><a href="#">Podutos</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Ecomendar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="index.js"></script>
 </body>
 
 </html>
